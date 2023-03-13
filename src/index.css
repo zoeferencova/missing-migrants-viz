@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.land {
+  fill: #c6d7c6;
+}
+
+.interiors {
+  fill: none;
+  stroke: #edf2f4;
+}
+
+.sphere {
+  fill: #edf2f4;
+}
+
+.graticules {
+  fill: none;
+  stroke: #d7e6e9;
+}
+
+.tick line {
+  stroke: #efefef
+}
+
+circle {
+  fill: #bb362c;
+  opacity: 0.3;
+}
+
+.tick text,
+.axis-label {
+  fill: #635F5D;
+  font-size: 0.5rem;
+}
+
+.marks rect {
+  fill: #bb3030;
+}
