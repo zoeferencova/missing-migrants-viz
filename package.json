@@ -1,6 +1,6 @@
 {
   "name": "missing-migrants",
-  "homepage": "https://zoeferencova.github.io/missing-migrants",
+  "homepage": "https://zoeferencova.github.io/missing-migrants-viz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
