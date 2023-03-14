@@ -7,8 +7,9 @@ const graticule = geoGraticule();
 
 export const Marks = ({ worldAtlas: { land, interiors }, data, sizeScale, sizeValue, scaleProportions, width }) => {
 	const scaleTransform = `scale(${scaleProportions}, ${scaleProportions})`
+	// group transform if using background sphere: transform={`translate(${(width - (width * scaleProportions)) / 2}, 0)`}
 	return (
-		<g className="marks" transform={`translate(${(width - (width * scaleProportions)) / 2}, 0)`}>
+		<g className="marks">
 			{useMemo(
 				() => (
 					<>

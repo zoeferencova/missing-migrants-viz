@@ -4,13 +4,13 @@ import { AxisBottom } from './AxisBottom';
 import { AxisLeft } from './AxisLeft';
 import { Marks } from './Marks';
 
-const margin = { top: 10, right: 30, bottom: 32, left: 55 };
-const xAxisLabelOffset = 25;
+const margin = { top: 0, right: 30, bottom: 32, left: 55 };
+const xAxisLabelOffset = 30;
 const yAxisLabelOffset = 35;
 const xAxisTickFormat = timeFormat('%m/%d/%y');
-const xAxisLabel = "Time";
+const xAxisLabel = "Month";
 const yValue = d => d.person_count;
-const yAxisLabel = "Missing and Dead";
+const yAxisLabel = "Count";
 
 export const DateHistogram = ({ data, height, width, setBrushExtent, xValue }) => {
   const innerHeight = height - margin.top - margin.bottom;
