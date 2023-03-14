@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/missing-migrants-viz/static/css/main.55e6f9e7.css",
-    "main.js": "/missing-migrants-viz/static/js/main.4e1fe50e.js",
+    "main.css": "/missing-migrants-viz/static/css/main.678e7ea4.css",
+    "main.js": "/missing-migrants-viz/static/js/main.86bf033e.js",
     "static/js/787.f18a03f4.chunk.js": "/missing-migrants-viz/static/js/787.f18a03f4.chunk.js",
+    "static/media/github.svg": "/missing-migrants-viz/static/media/github.c21dc2c952a96175dc43.svg",
     "index.html": "/missing-migrants-viz/index.html",
-    "main.55e6f9e7.css.map": "/missing-migrants-viz/static/css/main.55e6f9e7.css.map",
-    "main.4e1fe50e.js.map": "/missing-migrants-viz/static/js/main.4e1fe50e.js.map",
+    "static/media/table-regular.svg": "/missing-migrants-viz/static/media/table-regular.a7f1b37329496e519047.svg",
+    "main.678e7ea4.css.map": "/missing-migrants-viz/static/css/main.678e7ea4.css.map",
+    "main.86bf033e.js.map": "/missing-migrants-viz/static/js/main.86bf033e.js.map",
     "787.f18a03f4.chunk.js.map": "/missing-migrants-viz/static/js/787.f18a03f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55e6f9e7.css",
-    "static/js/main.4e1fe50e.js"
+    "static/css/main.678e7ea4.css",
+    "static/js/main.86bf033e.js"
   ]
 }
